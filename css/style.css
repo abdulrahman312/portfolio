@@ -17,6 +17,8 @@ Author E-mail: naimlasker@gmail.com
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
+}
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -84,7 +86,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 200px 0; }
+  padding: 100px 0; }
   @media (max-width: 1199px) {
     .section_gap {
       padding: 80px 0; } }
@@ -2501,7 +2503,7 @@ h6 {
 /* Start Brand Area css
 ============================================================================================ */
 .single-brand-item {
-  width: 170px;
+  width: 190px;
   height: 100px;
   cursor: pointer;
   margin-bottom: 30px;
@@ -2522,7 +2524,8 @@ h6 {
   .single-brand-item .d-table-cell {
     vertical-align: middle; }
   .single-brand-item img {
-    max-width: 80px;
+    max-width: 120px;
+    height: 50px;
     margin: 0 auto;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -2535,11 +2538,12 @@ h6 {
     border: 1px solid transparent;
     box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15); }
     .single-brand-item:hover img {
-      filter: brightness(0%);
-      -o-filter: brightness(0%);
-      -ms-filter: brightness(0%);
-      -moz-filter: brightness(0%);
-      -webkit-filter: brightness(0%); }
+      height: 70px;
+      filter: brightness(90%);
+      -o-filter: brightness(90%);
+      -ms-filter: brightness(90%);
+      -moz-filter: brightness(90%);
+      -webkit-filter: brightness(90%); }
 
 .client-info {
   padding: 25px 30px;
@@ -3299,6 +3303,11 @@ h6 {
     .footer_area .footer_bottom a {
       color: #854fee; }
 
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+
+
 
 /* Styles for portfolio */
 .port{ position: absolute; top: 120px; left: 0; right: 0; z-index: 100; }
@@ -3311,7 +3320,7 @@ h6 {
 .info .right-area{ margin-left: 45px; display: inline-block; }
 
 .icon{ font-size: 1.8em; display: inline-block; line-height: inherit;}
-
+ 
 .ion-ios-location-outline:before { content: "\f455"; }
 
 .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
@@ -3350,6 +3359,9 @@ li{ list-style: none; display: inline-block; }
 
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(2); transform: scale(2); }
 
+
+
+
 .experience-section{ background: #28023D; color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
@@ -3367,16 +3379,13 @@ li{ list-style: none; display: inline-block; }
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+  box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+  
 
 
 
 
 
 
-
-/* End Footer Area css
-============================================================================================ */
-/*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
