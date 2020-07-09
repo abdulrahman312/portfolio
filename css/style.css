@@ -3313,13 +3313,9 @@ h6 {
 
 
 /* Styles for portfolio */
-.port{ position: absolute; top: 120px; left: 0; right: 0; z-index: 100;  }
+.port{ position: absolute; top: 120px; left: 0; right: 0; z-index: 100; top: 80px; }
 
-@media only screen and (max-width: 600px) {
-  .port {top: 80px;}
-  .downlad-btn {display: none;}
-  .intro-section {margin-top: 70px;}
-}
+
 
 .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #854fee; color: #fff; }
 
@@ -3332,12 +3328,10 @@ h6 {
  
 .ion-ios-location-outline:before { content: "\f455"; }
 
-.downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #854fee; color: #fff; 
-  -webkit-transition: all .2s ease; transition: all .2s ease; }
+
   
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-    z-index: 1;background-image: url(../img/portfolio/slider-1-1920x1080.jpg);  }
+    z-index: 1;background-image: url(../img/portfolio/slider-1-1920x1080.jpg); margin-top: 80px;  }
   
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
     right: 0; background: rgba(0,0,0, .2); }
