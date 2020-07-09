@@ -125,7 +125,10 @@ button:focus {
         font-size: 30px;
         line-height: 34px; } }
   .main_title p {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    line-height: 1.6; }
     @media (max-width: 991px) {
       .main_title p br {
         display: none; } }
@@ -3337,10 +3340,11 @@ h6 {
     height: 150px; z-index: -1; background: #fff; }
 
 .intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff;
-padding-bottom: 5px; border-radius: 20px; }
+padding-bottom: 5px; border-radius: 20px; border-bottom: 2px solid #28023D; border-top: 2px solid #28023D;
+box-shadow: -5px -5px 30px 5px #FFAB00, 5px 5px 30px 5px #854fee; }
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
-  overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
+  overflow: hidden; position: relative; top: -100px; margin-bottom: -70px; box-shadow: -5px -5px 30px 5px #FFAB00, 5px 5px 30px 5px #854fee;  }
   
 .font-purple{ color: #854fee; }
 
